@@ -1,7 +1,7 @@
 import { ChevronRight, Github, Linkedin } from "lucide-react";
 import { USER_DATA } from "../data/user";
 
-const Hero: React.FC<{ onScrollTo: (id: string) => void }> = ({
+const HeroCard: React.FC<{ onScrollTo: (id: string) => void }> = ({
   onScrollTo,
 }) => (
   <section id="home" className="pt-40 pb-20 px-6 relative overflow-hidden">
@@ -48,4 +48,4 @@ const Hero: React.FC<{ onScrollTo: (id: string) => void }> = ({
   </section>
 );
 
-export default Hero;
+export default HeroCard;

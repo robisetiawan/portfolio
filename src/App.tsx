@@ -2,12 +2,12 @@ import { Cpu, Database, ExternalLink, Server } from "lucide-react";
 import About from "./components/About";
 import Navbar from "./components/Navbar";
 import { useEffect, useState } from "react";
-import Hero from "./components/hero";
 import SkillCard from "./components/SkillCard";
 import { USER_DATA } from "./data/user";
 import ProjectCard from "./components/ProjectCard";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
+import HeroCard from "./components/HeroCard";
 
 const App: React.FC = () => {
   const [activeSection, setActiveSection] = useState<string>("home");
@@ -44,7 +44,7 @@ const App: React.FC = () => {
         onScrollTo={scrollTo}
       />
 
-      <Hero onScrollTo={scrollTo} />
+      <HeroCard onScrollTo={scrollTo} />
 
       <About />
 

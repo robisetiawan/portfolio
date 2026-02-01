@@ -6,7 +6,7 @@ export const USER_DATA: UserData = {
   location: "Palembang, South Sumatera, Indonesia",
   email: "robistwn2000@gmail.com",
   summary:
-    "Full-Stack Developer with professional experience since 2022, specializing in Laravel and Next.js for building scalable, secure, and maintainable web applications. Strong background in Linux server administration, SQL Server, MySQL, and academic information systems.",
+    "Hello! I'm Robi Setiawan, a creative Full-Stack developer with 3+ years of experience in turning ideas into web products—from frontend to backend.",
   skills: [
     {
       name: "Backend & Database",
